@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/imglogo"
+        android:src="@mipmap/calculatorlogo"/>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imglogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="serif"
+        android:text="By"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imglogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Rohan Kamath "
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+
+</RelativeLayout>
